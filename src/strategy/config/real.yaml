@@ -1,0 +1,7 @@
+basic_strategy_manager:
+  ros__parameters:
+      number_of_laps_on_trajectory: 1 # Number of laps to be completed once the trajectory has been completed
+      # Actually, the total number of laps will be ceil(laps_number_when_traj + number_of_laps_on_trajectory)
+      laps_before_track_request: 1.33 # Number of laps to be completed before trying to compute a new trajectory
+      track_request_retries: 0.34 # In the case of a failure, the number of laps to drive before trying again
+        

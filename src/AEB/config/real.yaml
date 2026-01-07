@@ -1,0 +1,12 @@
+aeb:
+    ros__parameters:
+        # PARAMETERS TO BE TUNED FOR REAL WORLD TESTING
+        # Side time to collision threshold
+        threshold_side: 0.000001
+
+        # Front time to collision threshold
+        threshold_front: 0.000001
+
+        # When the absolute value of the angle between the front of the vehicle and the lidar point 
+        # is less than this threshold, the point is considered to be in front of the vehicle
+        angle_threshold: 0.5235987755982988 # 30 degrees

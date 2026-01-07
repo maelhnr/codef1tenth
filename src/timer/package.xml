@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>timer</name>
+  <version>0.0.0</version>
+  <description>
+    Used to calculate the average runtime of a node. Measures the time between 2 topics being published.
+    Set the topic name and message type in the params.yaml file.
+    Does not work as part of a launch file, because it listens to keyboard inputs on the console.
+  </description>
+  <maintainer email="nils@todo.todo">nils</maintainer>
+  <license>TODO: License declaration</license>
+
+  <depend>[deps]</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

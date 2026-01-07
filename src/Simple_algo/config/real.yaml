@@ -1,0 +1,78 @@
+fast_disparity_extender:
+    ros__parameters:
+        publish_disparities: False
+    # Params for speed calculation    
+        min_speed: 0.8 # 
+        max_speed: 2.0
+        absolute_max_speed: 2.5
+        # The forward distance at which the car will go its minimum speed. 
+        # If there's not enough clearance in front of the car it will stop.
+        min_distance: 0.75
+        # The forward distance over which the car will go its maximum speed.
+        # Any distance between this and the minimum scales the speed linearly.
+        max_distance: 5.0
+        # The forward distance over which the car will go its *absolute
+        # maximum* speed. This distance indicates there are no obstacles in
+        # the near path of the car. Distance between this and the max_distance
+        # scales the speed linearly.
+        no_obstacles_distance: 6.0
+        speed_mode: "straight_ahead"  # speed depends on straight ahead distance
+        # speed_mode: "arc_distance"  # turn and ajust speed to avoid closest obstacle on arc between straigth ahead and target
+    # Car params
+        half_car_width: 0.6
+        wheelbase: 0.325
+    # Params for disparity extender
+        disparity_threshold: 0.25  # (m)
+        scan_width: 270.0
+        target_mode: "all"  # at this point this is the only target mode
+    # Params for turning
+        turn_clearance: 0.3 # minimum distance to the wall to start turning
+        max_steering_angle: 24.0
+        min_steering_angle: 1.0 # minimum turning angle considered to ignore noise
+        turn_factor: 0.5 # between 0.0 and 1.0, 0=tightest possible turn, 1=largest possible turn
+
+disparity_extender:
+    ros__parameters:
+        min_speed: 0.8 # 
+        max_speed: 1.1
+        absolute_max_speed: 1.3
+        
+        # The forward distance at which the car will go its minimum speed. 
+        # If there's not enough clearance in front of the car it will stop.
+        min_distance: 0.90
+        # The forward distance over which the car will go its maximum speed.
+        # Any distance between this and the minimum scales the speed linearly.
+        max_distance: 2.2
+        # The forward distance over which the car will go its *absolute
+        # maximum* speed. This distance indicates there are no obstacles in
+        # the near path of the car. Distance between this and the max_distance
+        # scales the speed linearly.
+        no_obstacles_distance: 2.5
+
+wall_follow:
+    ros__parameters:
+        # PARAMETERS TO TUNE
+        kp: 0.5 # Proportional gain of the PID controller on the distance error to the centerline
+        ki: 0.05 # Integral gain of the PID controller on the distance error to the centerline
+        kd: 0.0 # Derivative gain of the PID controller on the distance error to the centerline
+        timestep: 0.025 # s, Timestep of the PID controller
+        max_vel: 2.5 # m/s, Max car speed
+        max_angle: 24.0 # degrees, Max steering angle
+        speed_reduction_factor: 0.6 # Speed reduction factor when the car is far from the centerline
+        desired_distance: 0.0 # Desired distance from the centerline
+
+wall_follow_penn:
+    ros__parameters:
+        # PARAMETERS TO TUNE
+        kp: -20.0 # Proportional gain of the PID controller on the distance error
+        kd: 8.0 # Derivative gain of the PID controller on the distance error
+        ki: 0.015 # Integral gain of the PID controller on the distance error
+        desired_distance_left: 0.55 # meters, Desired distance from the left wall
+        max_speed: 1.5 # m/s, Max car speed
+
+gap_follow:
+    ros__parameters:
+        # PARAMETERS TO TUNE
+        bubble_radius: 1.5 # Rayon de la bulle
+        max_speed: 3.0 # Vitesse maximale de la voiture
+        steering_fox_degrees: 70.0 # Angle de vue de la direction
