@@ -52,6 +52,13 @@ def generate_launch_description():
         'config',
         'mux.yaml'
     )
+
+    ekf_config = os.path.join(
+        get_package_share_directory('f1tenth_stack'),
+        'config',
+        'ekf.yaml'
+    )
+
     realsense_config = os.path.join(
         get_package_share_directory('realsense2_camera'),
         'launch',
@@ -142,6 +149,16 @@ def generate_launch_description():
         parameters=[LaunchConfiguration('mux_config')],
         remappings=[('ackermann_cmd_out', 'ackermann_drive')]
     )
+
+    ekf_node = Node(
+        package='robot_localization',
+        executable='ekf_node',
+        name='ekf_filter_node',
+        output='screen',
+        parameters=[ekf_config],
+        remappings=[('/odometry/filtered', '/odom_filtered')]
+    )
+
     static_tf_laser_node = Node(
         package='tf2_ros',
         executable='static_transform_publisher',
@@ -161,6 +178,7 @@ def generate_launch_description():
     ld.add_action(ackermann_to_vesc_node)
     ld.add_action(vesc_to_odom_node)
     ld.add_action(vesc_driver_node)
+    ld.add_action(ekf_node)
     # ld.add_action(throttle_interpolator_node)
     ld.add_action(urg_node)
     ld.add_action(ackermann_mux_node)
