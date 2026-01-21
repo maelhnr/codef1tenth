@@ -146,13 +146,13 @@ def generate_launch_description():
         package='tf2_ros',
         executable='static_transform_publisher',
         name='static_baselink_to_laser',
-        arguments=['0.27', '0.0', '0.11', '0.0', '0.0', '0.0', 'base_link', 'laser']
+        arguments=['0.10', '0.0', '0.11', '0.0', '0.0', '0.0', 'base_link', 'laser']
     )
     static_tf_camera_node = Node(
         package='tf2_ros',
         executable='static_transform_publisher',
         name='static_base_link_to_camera',
-        arguments=['0.20', '0.0', '0.15', '0.0', '0.0', '0.0', 'base_link', 'camera_link']
+        arguments=['0.10', '0.0', '0.14', '0.0', '0.0', '0.0', 'base_link', 'camera_link']
     )
 
     # finalize
