@@ -1,0 +1,5 @@
+[console_scripts]
+AEB = AEB.AEB:main
+aeb2 = AEB.aeb2:main
+multiplexer = AEB.multiplexer:main
+

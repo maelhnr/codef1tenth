@@ -1,0 +1,3 @@
+[console_scripts]
+basic_strategy_manager = strategy.basic_strategy_manager:main
+

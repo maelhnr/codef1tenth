@@ -1,0 +1,7 @@
+{
+  "package_name": "custom_msgs",
+  "non_idl_tuples": [
+    "/home/etdisc/Bureau/codef1tenth/src/custom_msgs:msg/LapProgress.msg",
+    "/home/etdisc/Bureau/codef1tenth/src/custom_msgs:msg/TrackDescription.msg"
+  ]
+}

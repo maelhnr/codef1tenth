@@ -1,0 +1,61 @@
+[4.037s] Invoking command in '/home/etdisc/Bureau/codef1tenth/src/Simple_algo': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Simple_algo build --build-base /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build install --record /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/install.log --single-version-externally-managed install_data
+[4.642s] running egg_info
+[4.643s] creating ../build/Simple_algo/Simple_algo.egg-info
+[4.643s] writing ../build/Simple_algo/Simple_algo.egg-info/PKG-INFO
+[4.644s] writing dependency_links to ../build/Simple_algo/Simple_algo.egg-info/dependency_links.txt
+[4.644s] writing entry points to ../build/Simple_algo/Simple_algo.egg-info/entry_points.txt
+[4.644s] writing requirements to ../build/Simple_algo/Simple_algo.egg-info/requires.txt
+[4.644s] writing top-level names to ../build/Simple_algo/Simple_algo.egg-info/top_level.txt
+[4.648s] writing manifest file '../build/Simple_algo/Simple_algo.egg-info/SOURCES.txt'
+[4.728s] reading manifest file '../build/Simple_algo/Simple_algo.egg-info/SOURCES.txt'
+[4.730s] writing manifest file '../build/Simple_algo/Simple_algo.egg-info/SOURCES.txt'
+[4.731s] running build
+[4.731s] running build_py
+[4.732s] creating /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build
+[4.732s] creating /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib
+[4.733s] creating /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo
+[4.733s] copying Simple_algo/DisparityExtender.py -> /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo
+[4.733s] copying Simple_algo/wall_follow_penn.py -> /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo
+[4.734s] copying Simple_algo/wall_follow.py -> /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo
+[4.735s] copying Simple_algo/loadTopics.py -> /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo
+[4.744s] copying Simple_algo/fast_disparity_extender.py -> /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo
+[4.744s] copying Simple_algo/__init__.py -> /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo
+[4.744s] copying Simple_algo/follow_gap_penn.py -> /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo
+[4.745s] running install
+[4.745s] running install_lib
+[4.746s] creating /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo
+[4.746s] copying /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo/DisparityExtender.py -> /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo
+[4.746s] copying /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo/wall_follow_penn.py -> /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo
+[4.746s] copying /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo/wall_follow.py -> /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo
+[4.746s] copying /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo/loadTopics.py -> /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo
+[4.746s] copying /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo/fast_disparity_extender.py -> /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo
+[4.753s] copying /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo/__init__.py -> /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo
+[4.753s] copying /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build/lib/Simple_algo/follow_gap_penn.py -> /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo
+[4.753s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo/DisparityExtender.py to DisparityExtender.cpython-38.pyc
+[4.753s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo/wall_follow_penn.py to wall_follow_penn.cpython-38.pyc
+[4.754s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo/wall_follow.py to wall_follow.cpython-38.pyc
+[4.756s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo/loadTopics.py to loadTopics.cpython-38.pyc
+[4.757s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo/fast_disparity_extender.py to fast_disparity_extender.cpython-38.pyc
+[4.769s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo/__init__.py to __init__.cpython-38.pyc
+[4.769s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo/follow_gap_penn.py to follow_gap_penn.cpython-38.pyc
+[4.769s] running install_data
+[4.770s] creating /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/share/ament_index
+[4.770s] creating /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/share/ament_index/resource_index
+[4.771s] creating /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/share/ament_index/resource_index/packages
+[4.771s] copying resource/Simple_algo -> /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/share/ament_index/resource_index/packages
+[4.774s] copying package.xml -> /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/share/Simple_algo
+[4.775s] creating /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/share/Simple_algo/config
+[4.775s] copying config/simulation.yaml -> /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/share/Simple_algo/config
+[4.775s] copying config/real.yaml -> /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/share/Simple_algo/config
+[4.776s] creating /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/share/Simple_algo/launch
+[4.776s] copying launch/fast_disparity_extender.launch.py -> /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/share/Simple_algo/launch
+[4.781s] running install_egg_info
+[4.782s] Copying ../build/Simple_algo/Simple_algo.egg-info to /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo-1.0.0-py3.8.egg-info
+[4.783s] running install_scripts
+[4.822s] Installing disparity_extender script to /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/Simple_algo
+[4.822s] Installing fast_disparity_extender script to /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/Simple_algo
+[4.823s] Installing gap_follow script to /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/Simple_algo
+[4.823s] Installing wall_follow script to /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/Simple_algo
+[4.823s] Installing wall_follow_penn script to /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/Simple_algo
+[4.824s] writing list of installed files to '/home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/install.log'
+[4.978s] Invoked command in '/home/etdisc/Bureau/codef1tenth/src/Simple_algo' returned '0': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Simple_algo build --build-base /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build install --record /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/install.log --single-version-externally-managed install_data

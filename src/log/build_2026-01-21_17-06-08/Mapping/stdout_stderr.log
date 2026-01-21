@@ -1,0 +1,62 @@
+running egg_info
+creating ../build/Mapping/Mapping.egg-info
+writing ../build/Mapping/Mapping.egg-info/PKG-INFO
+writing dependency_links to ../build/Mapping/Mapping.egg-info/dependency_links.txt
+writing entry points to ../build/Mapping/Mapping.egg-info/entry_points.txt
+writing requirements to ../build/Mapping/Mapping.egg-info/requires.txt
+writing top-level names to ../build/Mapping/Mapping.egg-info/top_level.txt
+writing manifest file '../build/Mapping/Mapping.egg-info/SOURCES.txt'
+reading manifest file '../build/Mapping/Mapping.egg-info/SOURCES.txt'
+writing manifest file '../build/Mapping/Mapping.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build
+creating /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib
+creating /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+copying Mapping/Occupancy_Grid.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+copying Mapping/pose_listener.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+copying Mapping/centerline_extraction.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+copying Mapping/__init__.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+copying Mapping/virtual_imu.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+copying Mapping/scan_filter.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+copying Mapping/custom_slam.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+running install
+running install_lib
+creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/Occupancy_Grid.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/pose_listener.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/centerline_extraction.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/__init__.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/virtual_imu.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/scan_filter.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/custom_slam.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/Occupancy_Grid.py to Occupancy_Grid.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/pose_listener.py to pose_listener.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/centerline_extraction.py to centerline_extraction.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/virtual_imu.py to virtual_imu.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/scan_filter.py to scan_filter.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/custom_slam.py to custom_slam.cpython-38.pyc
+running install_data
+creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/ament_index
+creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/ament_index/resource_index
+creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/ament_index/resource_index/packages
+copying resource/Mapping -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/ament_index/resource_index/packages
+copying package.xml -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping
+creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/cartographer_config
+copying cartographer_config/real.lua -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/cartographer_config
+copying cartographer_config/simulation.lua -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/cartographer_config
+creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/launch
+copying launch/slam.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/launch
+creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/config
+copying config/simulation.yaml -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/config
+copying config/real.yaml -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/config
+running install_egg_info
+Copying ../build/Mapping/Mapping.egg-info to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping-0.0.0-py3.8.egg-info
+running install_scripts
+Installing centerline_extraction script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+Installing custom_slam script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+Installing pose_listener script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+Installing scan_filter script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+Installing virtual_imu script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+writing list of installed files to '/home/etdisc/Bureau/codef1tenth/src/build/Mapping/install.log'

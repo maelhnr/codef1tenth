@@ -1,0 +1,22 @@
+[3.185s] Invoking command in '/home/etdisc/Bureau/codef1tenth/src/Planif': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/src/build/Planif/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Planif build --build-base /home/etdisc/Bureau/codef1tenth/src/build/Planif/build install --record /home/etdisc/Bureau/codef1tenth/src/build/Planif/install.log --single-version-externally-managed install_data
+[3.769s] running egg_info
+[3.771s] writing ../build/Planif/Planif.egg-info/PKG-INFO
+[3.771s] writing dependency_links to ../build/Planif/Planif.egg-info/dependency_links.txt
+[3.771s] writing entry points to ../build/Planif/Planif.egg-info/entry_points.txt
+[3.772s] writing requirements to ../build/Planif/Planif.egg-info/requires.txt
+[3.772s] writing top-level names to ../build/Planif/Planif.egg-info/top_level.txt
+[3.845s] reading manifest file '../build/Planif/Planif.egg-info/SOURCES.txt'
+[3.847s] writing manifest file '../build/Planif/Planif.egg-info/SOURCES.txt'
+[3.848s] running build
+[3.849s] running build_py
+[3.849s] running install
+[3.851s] running install_lib
+[3.855s] running install_data
+[3.856s] running install_egg_info
+[3.860s] removing '/home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/python3.8/site-packages/Planif-0.1.0-py3.8.egg-info' (and everything under it)
+[3.860s] Copying ../build/Planif/Planif.egg-info to /home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/python3.8/site-packages/Planif-0.1.0-py3.8.egg-info
+[3.863s] running install_scripts
+[3.906s] Installing A_star script to /home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/Planif
+[3.906s] Installing A_star_SLAM script to /home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/Planif
+[3.907s] writing list of installed files to '/home/etdisc/Bureau/codef1tenth/src/build/Planif/install.log'
+[4.050s] Invoked command in '/home/etdisc/Bureau/codef1tenth/src/Planif' returned '0': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/src/build/Planif/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Planif build --build-base /home/etdisc/Bureau/codef1tenth/src/build/Planif/build install --record /home/etdisc/Bureau/codef1tenth/src/build/Planif/install.log --single-version-externally-managed install_data

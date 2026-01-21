@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/Planif/Planif.egg-info
+writing ../build/Planif/Planif.egg-info/PKG-INFO
+writing dependency_links to ../build/Planif/Planif.egg-info/dependency_links.txt
+writing entry points to ../build/Planif/Planif.egg-info/entry_points.txt
+writing requirements to ../build/Planif/Planif.egg-info/requires.txt
+writing top-level names to ../build/Planif/Planif.egg-info/top_level.txt
+writing manifest file '../build/Planif/Planif.egg-info/SOURCES.txt'
+reading manifest file '../build/Planif/Planif.egg-info/SOURCES.txt'
+writing manifest file '../build/Planif/Planif.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/etdisc/Bureau/codef1tenth/src/build/Planif/build
+creating /home/etdisc/Bureau/codef1tenth/src/build/Planif/build/lib
+creating /home/etdisc/Bureau/codef1tenth/src/build/Planif/build/lib/Planif
+copying Planif/A_etoile.py -> /home/etdisc/Bureau/codef1tenth/src/build/Planif/build/lib/Planif
+copying Planif/__init__.py -> /home/etdisc/Bureau/codef1tenth/src/build/Planif/build/lib/Planif
+copying Planif/A_etoile_SLAM.py -> /home/etdisc/Bureau/codef1tenth/src/build/Planif/build/lib/Planif
+running install
+running install_lib
+creating /home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/python3.8/site-packages/Planif
+copying /home/etdisc/Bureau/codef1tenth/src/build/Planif/build/lib/Planif/A_etoile.py -> /home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/python3.8/site-packages/Planif
+copying /home/etdisc/Bureau/codef1tenth/src/build/Planif/build/lib/Planif/__init__.py -> /home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/python3.8/site-packages/Planif
+copying /home/etdisc/Bureau/codef1tenth/src/build/Planif/build/lib/Planif/A_etoile_SLAM.py -> /home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/python3.8/site-packages/Planif
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/python3.8/site-packages/Planif/A_etoile.py to A_etoile.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/python3.8/site-packages/Planif/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/python3.8/site-packages/Planif/A_etoile_SLAM.py to A_etoile_SLAM.cpython-38.pyc
+running install_data
+creating /home/etdisc/Bureau/codef1tenth/src/install/Planif/share/ament_index
+creating /home/etdisc/Bureau/codef1tenth/src/install/Planif/share/ament_index/resource_index
+creating /home/etdisc/Bureau/codef1tenth/src/install/Planif/share/ament_index/resource_index/packages
+copying resource/Planif -> /home/etdisc/Bureau/codef1tenth/src/install/Planif/share/ament_index/resource_index/packages
+copying package.xml -> /home/etdisc/Bureau/codef1tenth/src/install/Planif/share/Planif
+running install_egg_info
+Copying ../build/Planif/Planif.egg-info to /home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/python3.8/site-packages/Planif-0.1.0-py3.8.egg-info
+running install_scripts
+Installing A_star script to /home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/Planif
+Installing A_star_SLAM script to /home/etdisc/Bureau/codef1tenth/src/install/Planif/lib/Planif
+writing list of installed files to '/home/etdisc/Bureau/codef1tenth/src/build/Planif/install.log'

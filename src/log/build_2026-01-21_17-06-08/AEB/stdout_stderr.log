@@ -1,0 +1,48 @@
+running egg_info
+creating ../build/AEB/AEB.egg-info
+writing ../build/AEB/AEB.egg-info/PKG-INFO
+writing dependency_links to ../build/AEB/AEB.egg-info/dependency_links.txt
+writing entry points to ../build/AEB/AEB.egg-info/entry_points.txt
+writing requirements to ../build/AEB/AEB.egg-info/requires.txt
+writing top-level names to ../build/AEB/AEB.egg-info/top_level.txt
+writing manifest file '../build/AEB/AEB.egg-info/SOURCES.txt'
+reading manifest file '../build/AEB/AEB.egg-info/SOURCES.txt'
+writing manifest file '../build/AEB/AEB.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/etdisc/Bureau/codef1tenth/src/build/AEB/build
+creating /home/etdisc/Bureau/codef1tenth/src/build/AEB/build/lib
+creating /home/etdisc/Bureau/codef1tenth/src/build/AEB/build/lib/AEB
+copying AEB/aeb2.py -> /home/etdisc/Bureau/codef1tenth/src/build/AEB/build/lib/AEB
+copying AEB/multiplexer.py -> /home/etdisc/Bureau/codef1tenth/src/build/AEB/build/lib/AEB
+copying AEB/__init__.py -> /home/etdisc/Bureau/codef1tenth/src/build/AEB/build/lib/AEB
+copying AEB/AEB.py -> /home/etdisc/Bureau/codef1tenth/src/build/AEB/build/lib/AEB
+running install
+running install_lib
+creating /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages/AEB
+copying /home/etdisc/Bureau/codef1tenth/src/build/AEB/build/lib/AEB/aeb2.py -> /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages/AEB
+copying /home/etdisc/Bureau/codef1tenth/src/build/AEB/build/lib/AEB/multiplexer.py -> /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages/AEB
+copying /home/etdisc/Bureau/codef1tenth/src/build/AEB/build/lib/AEB/__init__.py -> /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages/AEB
+copying /home/etdisc/Bureau/codef1tenth/src/build/AEB/build/lib/AEB/AEB.py -> /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages/AEB
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages/AEB/aeb2.py to aeb2.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages/AEB/multiplexer.py to multiplexer.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages/AEB/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages/AEB/AEB.py to AEB.cpython-38.pyc
+running install_data
+creating /home/etdisc/Bureau/codef1tenth/src/install/AEB/share/ament_index
+creating /home/etdisc/Bureau/codef1tenth/src/install/AEB/share/ament_index/resource_index
+creating /home/etdisc/Bureau/codef1tenth/src/install/AEB/share/ament_index/resource_index/packages
+copying resource/AEB -> /home/etdisc/Bureau/codef1tenth/src/install/AEB/share/ament_index/resource_index/packages
+copying package.xml -> /home/etdisc/Bureau/codef1tenth/src/install/AEB/share/AEB
+creating /home/etdisc/Bureau/codef1tenth/src/install/AEB/share/AEB/launch
+copying launch/safe_disparity_extender.py -> /home/etdisc/Bureau/codef1tenth/src/install/AEB/share/AEB/launch
+creating /home/etdisc/Bureau/codef1tenth/src/install/AEB/share/AEB/config
+copying config/simulation.yaml -> /home/etdisc/Bureau/codef1tenth/src/install/AEB/share/AEB/config
+copying config/real.yaml -> /home/etdisc/Bureau/codef1tenth/src/install/AEB/share/AEB/config
+running install_egg_info
+Copying ../build/AEB/AEB.egg-info to /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages/AEB-0.0.0-py3.8.egg-info
+running install_scripts
+Installing AEB script to /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/AEB
+Installing aeb2 script to /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/AEB
+Installing multiplexer script to /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/AEB
+writing list of installed files to '/home/etdisc/Bureau/codef1tenth/src/build/AEB/install.log'

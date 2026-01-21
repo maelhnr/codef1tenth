@@ -1,0 +1,64 @@
+[4.159s] Invoking command in '/home/etdisc/Bureau/codef1tenth/src/Mapping': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/src/build/Mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Mapping build --build-base /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build install --record /home/etdisc/Bureau/codef1tenth/src/build/Mapping/install.log --single-version-externally-managed install_data
+[4.941s] running egg_info
+[4.941s] creating ../build/Mapping/Mapping.egg-info
+[4.942s] writing ../build/Mapping/Mapping.egg-info/PKG-INFO
+[4.942s] writing dependency_links to ../build/Mapping/Mapping.egg-info/dependency_links.txt
+[4.942s] writing entry points to ../build/Mapping/Mapping.egg-info/entry_points.txt
+[4.942s] writing requirements to ../build/Mapping/Mapping.egg-info/requires.txt
+[4.942s] writing top-level names to ../build/Mapping/Mapping.egg-info/top_level.txt
+[4.942s] writing manifest file '../build/Mapping/Mapping.egg-info/SOURCES.txt'
+[4.951s] reading manifest file '../build/Mapping/Mapping.egg-info/SOURCES.txt'
+[4.953s] writing manifest file '../build/Mapping/Mapping.egg-info/SOURCES.txt'
+[4.954s] running build
+[4.954s] running build_py
+[4.954s] creating /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build
+[4.955s] creating /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib
+[4.955s] creating /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+[4.955s] copying Mapping/Occupancy_Grid.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+[4.956s] copying Mapping/pose_listener.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+[4.956s] copying Mapping/centerline_extraction.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+[4.956s] copying Mapping/__init__.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+[4.956s] copying Mapping/virtual_imu.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+[4.956s] copying Mapping/scan_filter.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+[4.957s] copying Mapping/custom_slam.py -> /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping
+[4.957s] running install
+[4.958s] running install_lib
+[4.960s] creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+[4.961s] copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/Occupancy_Grid.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+[4.961s] copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/pose_listener.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+[4.961s] copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/centerline_extraction.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+[4.962s] copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/__init__.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+[4.962s] copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/virtual_imu.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+[4.962s] copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/scan_filter.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+[4.962s] copying /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build/lib/Mapping/custom_slam.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping
+[4.963s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/Occupancy_Grid.py to Occupancy_Grid.cpython-38.pyc
+[4.968s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/pose_listener.py to pose_listener.cpython-38.pyc
+[4.969s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/centerline_extraction.py to centerline_extraction.cpython-38.pyc
+[4.977s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/__init__.py to __init__.cpython-38.pyc
+[4.978s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/virtual_imu.py to virtual_imu.cpython-38.pyc
+[4.978s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/scan_filter.py to scan_filter.cpython-38.pyc
+[4.978s] byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping/custom_slam.py to custom_slam.cpython-38.pyc
+[4.982s] running install_data
+[4.983s] creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/ament_index
+[4.983s] creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/ament_index/resource_index
+[4.983s] creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/ament_index/resource_index/packages
+[4.983s] copying resource/Mapping -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/ament_index/resource_index/packages
+[4.983s] copying package.xml -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping
+[4.983s] creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/cartographer_config
+[4.983s] copying cartographer_config/real.lua -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/cartographer_config
+[4.983s] copying cartographer_config/simulation.lua -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/cartographer_config
+[4.984s] creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/launch
+[4.985s] copying launch/slam.py -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/launch
+[4.985s] creating /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/config
+[4.985s] copying config/simulation.yaml -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/config
+[4.990s] copying config/real.yaml -> /home/etdisc/Bureau/codef1tenth/src/install/Mapping/share/Mapping/config
+[4.990s] running install_egg_info
+[4.993s] Copying ../build/Mapping/Mapping.egg-info to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping-0.0.0-py3.8.egg-info
+[4.994s] running install_scripts
+[5.020s] Installing centerline_extraction script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+[5.021s] Installing custom_slam script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+[5.021s] Installing pose_listener script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+[5.021s] Installing scan_filter script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+[5.023s] Installing virtual_imu script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+[5.024s] writing list of installed files to '/home/etdisc/Bureau/codef1tenth/src/build/Mapping/install.log'
+[5.422s] Invoked command in '/home/etdisc/Bureau/codef1tenth/src/Mapping' returned '0': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/src/build/Mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Mapping build --build-base /home/etdisc/Bureau/codef1tenth/src/build/Mapping/build install --record /home/etdisc/Bureau/codef1tenth/src/build/Mapping/install.log --single-version-externally-managed install_data

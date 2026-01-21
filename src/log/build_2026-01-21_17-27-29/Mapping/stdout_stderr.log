@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/Mapping/Mapping.egg-info/PKG-INFO
+writing dependency_links to ../build/Mapping/Mapping.egg-info/dependency_links.txt
+writing entry points to ../build/Mapping/Mapping.egg-info/entry_points.txt
+writing requirements to ../build/Mapping/Mapping.egg-info/requires.txt
+writing top-level names to ../build/Mapping/Mapping.egg-info/top_level.txt
+reading manifest file '../build/Mapping/Mapping.egg-info/SOURCES.txt'
+writing manifest file '../build/Mapping/Mapping.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/Mapping/Mapping.egg-info to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping-0.0.0-py3.8.egg-info
+running install_scripts
+Installing centerline_extraction script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+Installing custom_slam script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+Installing pose_listener script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+Installing scan_filter script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+Installing virtual_imu script to /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping
+writing list of installed files to '/home/etdisc/Bureau/codef1tenth/src/build/Mapping/install.log'

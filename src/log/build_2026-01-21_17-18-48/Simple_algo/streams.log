@@ -1,0 +1,25 @@
+[3.198s] Invoking command in '/home/etdisc/Bureau/codef1tenth/src/Simple_algo': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Simple_algo build --build-base /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build install --record /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/install.log --single-version-externally-managed install_data
+[3.742s] running egg_info
+[3.750s] writing ../build/Simple_algo/Simple_algo.egg-info/PKG-INFO
+[3.751s] writing dependency_links to ../build/Simple_algo/Simple_algo.egg-info/dependency_links.txt
+[3.751s] writing entry points to ../build/Simple_algo/Simple_algo.egg-info/entry_points.txt
+[3.753s] writing requirements to ../build/Simple_algo/Simple_algo.egg-info/requires.txt
+[3.753s] writing top-level names to ../build/Simple_algo/Simple_algo.egg-info/top_level.txt
+[3.831s] reading manifest file '../build/Simple_algo/Simple_algo.egg-info/SOURCES.txt'
+[3.834s] writing manifest file '../build/Simple_algo/Simple_algo.egg-info/SOURCES.txt'
+[3.835s] running build
+[3.835s] running build_py
+[3.836s] running install
+[3.840s] running install_lib
+[3.844s] running install_data
+[3.845s] running install_egg_info
+[3.850s] removing '/home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo-1.0.0-py3.8.egg-info' (and everything under it)
+[3.850s] Copying ../build/Simple_algo/Simple_algo.egg-info to /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages/Simple_algo-1.0.0-py3.8.egg-info
+[3.860s] running install_scripts
+[3.899s] Installing disparity_extender script to /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/Simple_algo
+[3.899s] Installing fast_disparity_extender script to /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/Simple_algo
+[3.900s] Installing gap_follow script to /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/Simple_algo
+[3.901s] Installing wall_follow script to /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/Simple_algo
+[3.901s] Installing wall_follow_penn script to /home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/Simple_algo
+[3.903s] writing list of installed files to '/home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/install.log'
+[4.062s] Invoked command in '/home/etdisc/Bureau/codef1tenth/src/Simple_algo' returned '0': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/src/install/Simple_algo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Simple_algo build --build-base /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/build install --record /home/etdisc/Bureau/codef1tenth/src/build/Simple_algo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/localisation/localisation.egg-info
+writing ../build/localisation/localisation.egg-info/PKG-INFO
+writing dependency_links to ../build/localisation/localisation.egg-info/dependency_links.txt
+writing entry points to ../build/localisation/localisation.egg-info/entry_points.txt
+writing requirements to ../build/localisation/localisation.egg-info/requires.txt
+writing top-level names to ../build/localisation/localisation.egg-info/top_level.txt
+writing manifest file '../build/localisation/localisation.egg-info/SOURCES.txt'
+reading manifest file '../build/localisation/localisation.egg-info/SOURCES.txt'
+writing manifest file '../build/localisation/localisation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/etdisc/Bureau/codef1tenth/src/build/localisation/build
+creating /home/etdisc/Bureau/codef1tenth/src/build/localisation/build/lib
+creating /home/etdisc/Bureau/codef1tenth/src/build/localisation/build/lib/localisation
+copying localisation/lap_tracker.py -> /home/etdisc/Bureau/codef1tenth/src/build/localisation/build/lib/localisation
+copying localisation/__init__.py -> /home/etdisc/Bureau/codef1tenth/src/build/localisation/build/lib/localisation
+running install
+running install_lib
+creating /home/etdisc/Bureau/codef1tenth/src/install/localisation/lib/python3.8/site-packages/localisation
+copying /home/etdisc/Bureau/codef1tenth/src/build/localisation/build/lib/localisation/lap_tracker.py -> /home/etdisc/Bureau/codef1tenth/src/install/localisation/lib/python3.8/site-packages/localisation
+copying /home/etdisc/Bureau/codef1tenth/src/build/localisation/build/lib/localisation/__init__.py -> /home/etdisc/Bureau/codef1tenth/src/install/localisation/lib/python3.8/site-packages/localisation
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/localisation/lib/python3.8/site-packages/localisation/lap_tracker.py to lap_tracker.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/src/install/localisation/lib/python3.8/site-packages/localisation/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/etdisc/Bureau/codef1tenth/src/install/localisation/share/ament_index
+creating /home/etdisc/Bureau/codef1tenth/src/install/localisation/share/ament_index/resource_index
+creating /home/etdisc/Bureau/codef1tenth/src/install/localisation/share/ament_index/resource_index/packages
+copying resource/localisation -> /home/etdisc/Bureau/codef1tenth/src/install/localisation/share/ament_index/resource_index/packages
+copying package.xml -> /home/etdisc/Bureau/codef1tenth/src/install/localisation/share/localisation
+running install_egg_info
+Copying ../build/localisation/localisation.egg-info to /home/etdisc/Bureau/codef1tenth/src/install/localisation/lib/python3.8/site-packages/localisation-0.0.0-py3.8.egg-info
+running install_scripts
+Installing lap_tracker script to /home/etdisc/Bureau/codef1tenth/src/install/localisation/lib/localisation
+writing list of installed files to '/home/etdisc/Bureau/codef1tenth/src/build/localisation/install.log'

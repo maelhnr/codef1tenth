@@ -1,0 +1,5 @@
+[console_scripts]
+pure_pursuit = Waypoints.pure_pursuit:main
+pure_pursuit2 = Waypoints.pure_pursuit2:main
+waypoints_logger = Waypoints.waypoint_logger_pure_pursuit:main
+
