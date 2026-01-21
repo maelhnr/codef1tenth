@@ -27,11 +27,12 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'occupancy_grid = Mapping.Occupancy_Grid:main',
+            # 'occupancy_grid = Mapping.Occupancy_Grid:main',
             'pose_listener = Mapping.pose_listener:main',
             'scan_filter = Mapping.scan_filter:main',
             'centerline_extraction = Mapping.centerline_extraction:main',
-	    'custom_slam = Mapping.custom_slam:main',
+            'custom_slam = Mapping.custom_slam:main',
+            'virtual_imu = Mapping.virtual_imu:main',
         ],
     },
 )
