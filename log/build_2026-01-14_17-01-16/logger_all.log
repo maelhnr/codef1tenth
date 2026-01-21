@@ -1,0 +1,255 @@
+[1.851s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'f1_localization']
+[1.851s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff063687d00>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['f1_localization'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff063687d00>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff063696220>)
+[2.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.364s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/etdisc/Bureau/codef1tenth'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extensions ['ignore', 'ignore_ament_install']
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extension 'ignore'
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extension 'ignore_ament_install'
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extensions ['colcon_pkg']
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extension 'colcon_pkg'
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extensions ['colcon_meta']
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extension 'colcon_meta'
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extensions ['ros']
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/AEB) by extension 'ros'
+[2.585s] DEBUG:colcon.colcon_core.package_identification:Package 'src/AEB' with type 'ros.ament_python' and name 'AEB'
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/Mapping) by extensions ['ignore', 'ignore_ament_install']
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/Mapping) by extension 'ignore'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/Mapping) by extension 'ignore_ament_install'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/Mapping) by extensions ['colcon_pkg']
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/Mapping) by extension 'colcon_pkg'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/Mapping) by extensions ['colcon_meta']
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/Mapping) by extension 'colcon_meta'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/Mapping) by extensions ['ros']
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/Mapping) by extension 'ros'
+[2.590s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Mapping' with type 'ros.ament_python' and name 'Mapping'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/Planif) by extensions ['ignore', 'ignore_ament_install']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/Planif) by extension 'ignore'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/Planif) by extension 'ignore_ament_install'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/Planif) by extensions ['colcon_pkg']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/Planif) by extension 'colcon_pkg'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/Planif) by extensions ['colcon_meta']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/Planif) by extension 'colcon_meta'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/Planif) by extensions ['ros']
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/Planif) by extension 'ros'
+[2.594s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Planif' with type 'ros.ament_python' and name 'Planif'
+[2.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/Simple_algo) by extensions ['ignore', 'ignore_ament_install']
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/Simple_algo) by extension 'ignore'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/Simple_algo) by extension 'ignore_ament_install'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/Simple_algo) by extensions ['colcon_pkg']
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/Simple_algo) by extension 'colcon_pkg'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/Simple_algo) by extensions ['colcon_meta']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/Simple_algo) by extension 'colcon_meta'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/Simple_algo) by extensions ['ros']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/Simple_algo) by extension 'ros'
+[2.599s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Simple_algo' with type 'ros.ament_python' and name 'Simple_algo'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/Waypoints) by extensions ['ignore', 'ignore_ament_install']
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/Waypoints) by extension 'ignore'
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/Waypoints) by extension 'ignore_ament_install'
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/Waypoints) by extensions ['colcon_pkg']
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/Waypoints) by extension 'colcon_pkg'
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/Waypoints) by extensions ['colcon_meta']
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/Waypoints) by extension 'colcon_meta'
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/Waypoints) by extensions ['ros']
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/Waypoints) by extension 'ros'
+[2.604s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Waypoints' with type 'ros.ament_python' and name 'Waypoints'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore_ament_install'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_pkg']
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_pkg'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_meta']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_meta'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ros']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ros'
+[2.609s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_msgs' with type 'ros.ament_cmake' and name 'custom_msgs'
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_localization) by extensions ['ignore', 'ignore_ament_install']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_localization) by extension 'ignore'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_localization) by extension 'ignore_ament_install'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_localization) by extensions ['colcon_pkg']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_localization) by extension 'colcon_pkg'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_localization) by extensions ['colcon_meta']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_localization) by extension 'colcon_meta'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_localization) by extensions ['ros']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1_localization) by extension 'ros'
+[2.613s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1_localization' with type 'ros.ament_cmake' and name 'f1_localization'
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore'
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore_ament_install'
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_pkg']
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_pkg'
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_meta']
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_meta'
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ros']
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ros'
+[2.616s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_gym_ros' with type 'ros.ament_python' and name 'f1tenth_gym_ros'
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extensions ['ignore', 'ignore_ament_install']
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) by extension 'ignore'
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_system) ignored
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/localisation) by extensions ['ignore', 'ignore_ament_install']
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/localisation) by extension 'ignore'
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/localisation) by extension 'ignore_ament_install'
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/localisation) by extensions ['colcon_pkg']
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/localisation) by extension 'colcon_pkg'
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/localisation) by extensions ['colcon_meta']
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/localisation) by extension 'colcon_meta'
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/localisation) by extensions ['ros']
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/localisation) by extension 'ros'
+[2.620s] DEBUG:colcon.colcon_core.package_identification:Package 'src/localisation' with type 'ros.ament_python' and name 'localisation'
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/strategy) by extensions ['ignore', 'ignore_ament_install']
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/strategy) by extension 'ignore'
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/strategy) by extension 'ignore_ament_install'
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/strategy) by extensions ['colcon_pkg']
+[2.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/strategy) by extension 'colcon_pkg'
+[2.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/strategy) by extensions ['colcon_meta']
+[2.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/strategy) by extension 'colcon_meta'
+[2.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/strategy) by extensions ['ros']
+[2.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/strategy) by extension 'ros'
+[2.623s] DEBUG:colcon.colcon_core.package_identification:Package 'src/strategy' with type 'ros.ament_python' and name 'strategy'
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/timer) by extensions ['ignore', 'ignore_ament_install']
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/timer) by extension 'ignore'
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/timer) by extension 'ignore_ament_install'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/timer) by extensions ['colcon_pkg']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/timer) by extension 'colcon_pkg'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/timer) by extensions ['colcon_meta']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/timer) by extension 'colcon_meta'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/timer) by extensions ['ros']
+[2.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/timer) by extension 'ros'
+[2.628s] DEBUG:colcon.colcon_core.package_identification:Package 'src/timer' with type 'ros.ament_python' and name 'timer'
+[2.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.780s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'AEB' in 'src/AEB'
+[2.781s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'Mapping' in 'src/Mapping'
+[2.781s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'Planif' in 'src/Planif'
+[2.781s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'Simple_algo' in 'src/Simple_algo'
+[2.781s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'Waypoints' in 'src/Waypoints'
+[2.781s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'custom_msgs' in 'src/custom_msgs'
+[2.781s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'f1tenth_gym_ros' in 'src/f1tenth_gym_ros'
+[2.781s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'localisation' in 'src/localisation'
+[2.781s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'strategy' in 'src/strategy'
+[2.781s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'timer' in 'src/timer'
+[2.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.816s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/etdisc/depots/f1tenth/sim_ws/install
+[2.817s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/etdisc/Desktop/sim_ws/install
+[2.827s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 297 installed packages in /opt/ros/galactic
+[2.829s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'f1_localization' build argument 'cmake_args' from command line to 'None'
+[3.488s] Level 5:colcon.colcon_core.verb:set package 'f1_localization' build argument 'cmake_target' from command line to 'None'
+[3.489s] Level 5:colcon.colcon_core.verb:set package 'f1_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.489s] Level 5:colcon.colcon_core.verb:set package 'f1_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[3.489s] Level 5:colcon.colcon_core.verb:set package 'f1_localization' build argument 'cmake_clean_first' from command line to 'False'
+[3.489s] Level 5:colcon.colcon_core.verb:set package 'f1_localization' build argument 'cmake_force_configure' from command line to 'False'
+[3.489s] Level 5:colcon.colcon_core.verb:set package 'f1_localization' build argument 'ament_cmake_args' from command line to 'None'
+[3.489s] Level 5:colcon.colcon_core.verb:set package 'f1_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[3.489s] Level 5:colcon.colcon_core.verb:set package 'f1_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.489s] DEBUG:colcon.colcon_core.verb:Building package 'f1_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etdisc/Bureau/codef1tenth/build/f1_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etdisc/Bureau/codef1tenth/install/f1_localization', 'merge_install': False, 'path': '/home/etdisc/Bureau/codef1tenth/src/f1_localization', 'symlink_install': True, 'test_result_base': None}
+[3.489s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.494s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etdisc/Bureau/codef1tenth/src/f1_localization' with build type 'ament_cmake'
+[3.494s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etdisc/Bureau/codef1tenth/src/f1_localization'
+[3.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.530s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.530s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/Bureau/codef1tenth/build/f1_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etdisc/depots/f1tenth/sim_ws/install/timer:/home/etdisc/depots/f1tenth/sim_ws/install/strategy:/home/etdisc/depots/f1tenth/sim_ws/install/localisation:/home/etdisc/depots/f1tenth/sim_ws/install/f1tenth_gym_ros:/home/etdisc/depots/f1tenth/sim_ws/install/Waypoints:/home/etdisc/depots/f1tenth/sim_ws/install/Simple_algo:/home/etdisc/depots/f1tenth/sim_ws/install/Planif:/home/etdisc/depots/f1tenth/sim_ws/install/Mapping:/home/etdisc/depots/f1tenth/sim_ws/install/AEB:/home/etdisc/Desktop/sim_ws/install/timer:/home/etdisc/Desktop/sim_ws/install/strategy:/home/etdisc/Desktop/sim_ws/install/localisation:/home/etdisc/Desktop/sim_ws/install/f1tenth_gym_ros:/home/etdisc/Desktop/sim_ws/install/Waypoints:/home/etdisc/Desktop/sim_ws/install/Simple_algo:/home/etdisc/Desktop/sim_ws/install/Planif:/home/etdisc/Desktop/sim_ws/install/Mapping:/home/etdisc/Desktop/sim_ws/install/AEB:/opt/ros/galactic /usr/bin/cmake /home/etdisc/Bureau/codef1tenth/src/f1_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/etdisc/Bureau/codef1tenth/install/f1_localization
+[10.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/Bureau/codef1tenth/build/f1_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etdisc/depots/f1tenth/sim_ws/install/timer:/home/etdisc/depots/f1tenth/sim_ws/install/strategy:/home/etdisc/depots/f1tenth/sim_ws/install/localisation:/home/etdisc/depots/f1tenth/sim_ws/install/f1tenth_gym_ros:/home/etdisc/depots/f1tenth/sim_ws/install/Waypoints:/home/etdisc/depots/f1tenth/sim_ws/install/Simple_algo:/home/etdisc/depots/f1tenth/sim_ws/install/Planif:/home/etdisc/depots/f1tenth/sim_ws/install/Mapping:/home/etdisc/depots/f1tenth/sim_ws/install/AEB:/home/etdisc/Desktop/sim_ws/install/timer:/home/etdisc/Desktop/sim_ws/install/strategy:/home/etdisc/Desktop/sim_ws/install/localisation:/home/etdisc/Desktop/sim_ws/install/f1tenth_gym_ros:/home/etdisc/Desktop/sim_ws/install/Waypoints:/home/etdisc/Desktop/sim_ws/install/Simple_algo:/home/etdisc/Desktop/sim_ws/install/Planif:/home/etdisc/Desktop/sim_ws/install/Mapping:/home/etdisc/Desktop/sim_ws/install/AEB:/opt/ros/galactic /usr/bin/cmake /home/etdisc/Bureau/codef1tenth/src/f1_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/etdisc/Bureau/codef1tenth/install/f1_localization
+[10.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/Bureau/codef1tenth/build/f1_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etdisc/depots/f1tenth/sim_ws/install/timer:/home/etdisc/depots/f1tenth/sim_ws/install/strategy:/home/etdisc/depots/f1tenth/sim_ws/install/localisation:/home/etdisc/depots/f1tenth/sim_ws/install/f1tenth_gym_ros:/home/etdisc/depots/f1tenth/sim_ws/install/Waypoints:/home/etdisc/depots/f1tenth/sim_ws/install/Simple_algo:/home/etdisc/depots/f1tenth/sim_ws/install/Planif:/home/etdisc/depots/f1tenth/sim_ws/install/Mapping:/home/etdisc/depots/f1tenth/sim_ws/install/AEB:/home/etdisc/Desktop/sim_ws/install/timer:/home/etdisc/Desktop/sim_ws/install/strategy:/home/etdisc/Desktop/sim_ws/install/localisation:/home/etdisc/Desktop/sim_ws/install/f1tenth_gym_ros:/home/etdisc/Desktop/sim_ws/install/Waypoints:/home/etdisc/Desktop/sim_ws/install/Simple_algo:/home/etdisc/Desktop/sim_ws/install/Planif:/home/etdisc/Desktop/sim_ws/install/Mapping:/home/etdisc/Desktop/sim_ws/install/AEB:/opt/ros/galactic /usr/bin/cmake --build /home/etdisc/Bureau/codef1tenth/build/f1_localization -- -j8 -l8
+[10.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/Bureau/codef1tenth/build/f1_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etdisc/depots/f1tenth/sim_ws/install/timer:/home/etdisc/depots/f1tenth/sim_ws/install/strategy:/home/etdisc/depots/f1tenth/sim_ws/install/localisation:/home/etdisc/depots/f1tenth/sim_ws/install/f1tenth_gym_ros:/home/etdisc/depots/f1tenth/sim_ws/install/Waypoints:/home/etdisc/depots/f1tenth/sim_ws/install/Simple_algo:/home/etdisc/depots/f1tenth/sim_ws/install/Planif:/home/etdisc/depots/f1tenth/sim_ws/install/Mapping:/home/etdisc/depots/f1tenth/sim_ws/install/AEB:/home/etdisc/Desktop/sim_ws/install/timer:/home/etdisc/Desktop/sim_ws/install/strategy:/home/etdisc/Desktop/sim_ws/install/localisation:/home/etdisc/Desktop/sim_ws/install/f1tenth_gym_ros:/home/etdisc/Desktop/sim_ws/install/Waypoints:/home/etdisc/Desktop/sim_ws/install/Simple_algo:/home/etdisc/Desktop/sim_ws/install/Planif:/home/etdisc/Desktop/sim_ws/install/Mapping:/home/etdisc/Desktop/sim_ws/install/AEB:/opt/ros/galactic /usr/bin/cmake --build /home/etdisc/Bureau/codef1tenth/build/f1_localization -- -j8 -l8
+[10.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etdisc/Bureau/codef1tenth/build/f1_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etdisc/depots/f1tenth/sim_ws/install/timer:/home/etdisc/depots/f1tenth/sim_ws/install/strategy:/home/etdisc/depots/f1tenth/sim_ws/install/localisation:/home/etdisc/depots/f1tenth/sim_ws/install/f1tenth_gym_ros:/home/etdisc/depots/f1tenth/sim_ws/install/Waypoints:/home/etdisc/depots/f1tenth/sim_ws/install/Simple_algo:/home/etdisc/depots/f1tenth/sim_ws/install/Planif:/home/etdisc/depots/f1tenth/sim_ws/install/Mapping:/home/etdisc/depots/f1tenth/sim_ws/install/AEB:/home/etdisc/Desktop/sim_ws/install/timer:/home/etdisc/Desktop/sim_ws/install/strategy:/home/etdisc/Desktop/sim_ws/install/localisation:/home/etdisc/Desktop/sim_ws/install/f1tenth_gym_ros:/home/etdisc/Desktop/sim_ws/install/Waypoints:/home/etdisc/Desktop/sim_ws/install/Simple_algo:/home/etdisc/Desktop/sim_ws/install/Planif:/home/etdisc/Desktop/sim_ws/install/Mapping:/home/etdisc/Desktop/sim_ws/install/AEB:/opt/ros/galactic /usr/bin/cmake --install /home/etdisc/Bureau/codef1tenth/build/f1_localization
+[10.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1_localization)
+[10.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etdisc/Bureau/codef1tenth/build/f1_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etdisc/depots/f1tenth/sim_ws/install/timer:/home/etdisc/depots/f1tenth/sim_ws/install/strategy:/home/etdisc/depots/f1tenth/sim_ws/install/localisation:/home/etdisc/depots/f1tenth/sim_ws/install/f1tenth_gym_ros:/home/etdisc/depots/f1tenth/sim_ws/install/Waypoints:/home/etdisc/depots/f1tenth/sim_ws/install/Simple_algo:/home/etdisc/depots/f1tenth/sim_ws/install/Planif:/home/etdisc/depots/f1tenth/sim_ws/install/Mapping:/home/etdisc/depots/f1tenth/sim_ws/install/AEB:/home/etdisc/Desktop/sim_ws/install/timer:/home/etdisc/Desktop/sim_ws/install/strategy:/home/etdisc/Desktop/sim_ws/install/localisation:/home/etdisc/Desktop/sim_ws/install/f1tenth_gym_ros:/home/etdisc/Desktop/sim_ws/install/Waypoints:/home/etdisc/Desktop/sim_ws/install/Simple_algo:/home/etdisc/Desktop/sim_ws/install/Planif:/home/etdisc/Desktop/sim_ws/install/Mapping:/home/etdisc/Desktop/sim_ws/install/AEB:/opt/ros/galactic /usr/bin/cmake --install /home/etdisc/Bureau/codef1tenth/build/f1_localization
+[10.912s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/Bureau/codef1tenth/install/f1_localization' for CMake module files
+[10.913s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/Bureau/codef1tenth/install/f1_localization' for CMake config files
+[10.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1_localization', 'cmake_prefix_path')
+[10.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/hook/cmake_prefix_path.ps1'
+[10.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/hook/cmake_prefix_path.dsv'
+[10.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/hook/cmake_prefix_path.sh'
+[10.924s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/Bureau/codef1tenth/install/f1_localization/bin'
+[10.925s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/Bureau/codef1tenth/install/f1_localization/lib/pkgconfig/f1_localization.pc'
+[10.925s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/Bureau/codef1tenth/install/f1_localization/lib/python3.8/site-packages'
+[10.925s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/Bureau/codef1tenth/install/f1_localization/bin'
+[10.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/package.ps1'
+[10.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/package.dsv'
+[10.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/package.sh'
+[10.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/package.bash'
+[10.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/package.zsh'
+[10.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/colcon-core/packages/f1_localization)
+[10.944s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1_localization)
+[10.944s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/Bureau/codef1tenth/install/f1_localization' for CMake module files
+[10.945s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/Bureau/codef1tenth/install/f1_localization' for CMake config files
+[10.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1_localization', 'cmake_prefix_path')
+[10.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/hook/cmake_prefix_path.ps1'
+[10.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/hook/cmake_prefix_path.dsv'
+[10.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/hook/cmake_prefix_path.sh'
+[10.950s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/Bureau/codef1tenth/install/f1_localization/bin'
+[10.950s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/Bureau/codef1tenth/install/f1_localization/lib/pkgconfig/f1_localization.pc'
+[10.950s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/Bureau/codef1tenth/install/f1_localization/lib/python3.8/site-packages'
+[10.951s] Level 1:colcon.colcon_core.environment:checking '/home/etdisc/Bureau/codef1tenth/install/f1_localization/bin'
+[10.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/package.ps1'
+[10.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/package.dsv'
+[10.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/package.sh'
+[10.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/package.bash'
+[10.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/f1_localization/package.zsh'
+[10.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etdisc/Bureau/codef1tenth/install/f1_localization/share/colcon-core/packages/f1_localization)
+[10.957s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.957s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.958s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.027s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.027s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.027s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.620s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.621s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etdisc/Bureau/codef1tenth/install/local_setup.ps1'
+[11.623s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/etdisc/Bureau/codef1tenth/install/_local_setup_util_ps1.py'
+[11.626s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etdisc/Bureau/codef1tenth/install/setup.ps1'
+[11.630s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etdisc/Bureau/codef1tenth/install/local_setup.sh'
+[11.633s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/etdisc/Bureau/codef1tenth/install/_local_setup_util_sh.py'
+[11.634s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etdisc/Bureau/codef1tenth/install/setup.sh'
+[11.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etdisc/Bureau/codef1tenth/install/local_setup.bash'
+[11.643s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etdisc/Bureau/codef1tenth/install/setup.bash'
+[11.649s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etdisc/Bureau/codef1tenth/install/local_setup.zsh'
+[11.652s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etdisc/Bureau/codef1tenth/install/setup.zsh'

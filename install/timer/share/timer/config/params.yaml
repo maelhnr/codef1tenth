@@ -1,0 +1,15 @@
+timer:
+  ros__parameters:
+    # Name and message type of the first topic
+    topic1:
+      name: "scan"
+      type: "sensor_msgs/msg/LaserScan"
+    # Name and message type of the second topic
+    topic2:
+      # name: "scan"
+      name: "drive"
+      # type: "sensor_msgs/msg/LaserScan"
+      type: "ackermann_msgs/msg/AckermannDriveStamped"
+
+    # Maximum time between messages in milliseconds
+    max_time: 5000.  # 5 seconds (enter as double *.)

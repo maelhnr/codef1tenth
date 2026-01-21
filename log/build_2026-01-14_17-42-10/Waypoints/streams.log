@@ -1,0 +1,23 @@
+[14.168s] Invoking command in '/home/etdisc/Bureau/codef1tenth/src/Waypoints': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/Waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/Waypoints/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Waypoints build --build-base /home/etdisc/Bureau/codef1tenth/build/Waypoints/build install --record /home/etdisc/Bureau/codef1tenth/build/Waypoints/install.log --single-version-externally-managed install_data
+[15.565s] running egg_info
+[15.566s] writing ../../build/Waypoints/Waypoints.egg-info/PKG-INFO
+[15.567s] writing dependency_links to ../../build/Waypoints/Waypoints.egg-info/dependency_links.txt
+[15.569s] writing entry points to ../../build/Waypoints/Waypoints.egg-info/entry_points.txt
+[15.571s] writing requirements to ../../build/Waypoints/Waypoints.egg-info/requires.txt
+[15.574s] writing top-level names to ../../build/Waypoints/Waypoints.egg-info/top_level.txt
+[15.670s] reading manifest file '../../build/Waypoints/Waypoints.egg-info/SOURCES.txt'
+[15.678s] writing manifest file '../../build/Waypoints/Waypoints.egg-info/SOURCES.txt'
+[15.679s] running build
+[15.679s] running build_py
+[15.681s] running install
+[15.685s] running install_lib
+[15.702s] running install_data
+[15.705s] running install_egg_info
+[15.707s] removing '/home/etdisc/Bureau/codef1tenth/install/Waypoints/lib/python3.8/site-packages/Waypoints-0.0.0-py3.8.egg-info' (and everything under it)
+[15.715s] Copying ../../build/Waypoints/Waypoints.egg-info to /home/etdisc/Bureau/codef1tenth/install/Waypoints/lib/python3.8/site-packages/Waypoints-0.0.0-py3.8.egg-info
+[15.724s] running install_scripts
+[15.786s] Installing pure_pursuit script to /home/etdisc/Bureau/codef1tenth/install/Waypoints/lib/Waypoints
+[15.793s] Installing pure_pursuit2 script to /home/etdisc/Bureau/codef1tenth/install/Waypoints/lib/Waypoints
+[15.793s] Installing waypoints_logger script to /home/etdisc/Bureau/codef1tenth/install/Waypoints/lib/Waypoints
+[15.793s] writing list of installed files to '/home/etdisc/Bureau/codef1tenth/build/Waypoints/install.log'
+[16.410s] Invoked command in '/home/etdisc/Bureau/codef1tenth/src/Waypoints' returned '0': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/Waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/Waypoints/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Waypoints build --build-base /home/etdisc/Bureau/codef1tenth/build/Waypoints/build install --record /home/etdisc/Bureau/codef1tenth/build/Waypoints/install.log --single-version-externally-managed install_data

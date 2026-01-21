@@ -1,0 +1,6 @@
+source;share/Waypoints/hook/pythonpath.ps1
+source;share/Waypoints/hook/pythonpath.dsv
+source;share/Waypoints/hook/pythonpath.sh
+source;share/Waypoints/hook/ament_prefix_path.ps1
+source;share/Waypoints/hook/ament_prefix_path.dsv
+source;share/Waypoints/hook/ament_prefix_path.sh

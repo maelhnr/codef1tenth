@@ -1,0 +1,7 @@
+[console_scripts]
+centerline_extraction = Mapping.centerline_extraction:main
+custom_slam = Mapping.custom_slam:main
+occupancy_grid = Mapping.Occupancy_Grid:main
+pose_listener = Mapping.pose_listener:main
+scan_filter = Mapping.scan_filter:main
+

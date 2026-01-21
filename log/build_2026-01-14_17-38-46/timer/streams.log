@@ -1,0 +1,39 @@
+[4.565s] Invoking command in '/home/etdisc/Bureau/codef1tenth/src/timer': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/timer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/timer build --build-base /home/etdisc/Bureau/codef1tenth/build/timer/build install --record /home/etdisc/Bureau/codef1tenth/build/timer/install.log --single-version-externally-managed install_data
+[5.308s] running egg_info
+[5.308s] creating ../../build/timer/timer.egg-info
+[5.309s] writing ../../build/timer/timer.egg-info/PKG-INFO
+[5.313s] writing dependency_links to ../../build/timer/timer.egg-info/dependency_links.txt
+[5.313s] writing entry points to ../../build/timer/timer.egg-info/entry_points.txt
+[5.318s] writing requirements to ../../build/timer/timer.egg-info/requires.txt
+[5.318s] writing top-level names to ../../build/timer/timer.egg-info/top_level.txt
+[5.325s] writing manifest file '../../build/timer/timer.egg-info/SOURCES.txt'
+[5.430s] reading manifest file '../../build/timer/timer.egg-info/SOURCES.txt'
+[5.430s] writing manifest file '../../build/timer/timer.egg-info/SOURCES.txt'
+[5.430s] running build
+[5.434s] running build_py
+[5.435s] creating /home/etdisc/Bureau/codef1tenth/build/timer/build
+[5.435s] creating /home/etdisc/Bureau/codef1tenth/build/timer/build/lib
+[5.435s] creating /home/etdisc/Bureau/codef1tenth/build/timer/build/lib/timer
+[5.440s] copying timer/__init__.py -> /home/etdisc/Bureau/codef1tenth/build/timer/build/lib/timer
+[5.441s] copying timer/timer_node.py -> /home/etdisc/Bureau/codef1tenth/build/timer/build/lib/timer
+[5.441s] running install
+[5.445s] running install_lib
+[5.445s] creating /home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages/timer
+[5.445s] copying /home/etdisc/Bureau/codef1tenth/build/timer/build/lib/timer/__init__.py -> /home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages/timer
+[5.446s] copying /home/etdisc/Bureau/codef1tenth/build/timer/build/lib/timer/timer_node.py -> /home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages/timer
+[5.446s] byte-compiling /home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages/timer/__init__.py to __init__.cpython-38.pyc
+[5.455s] byte-compiling /home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages/timer/timer_node.py to timer_node.cpython-38.pyc
+[5.459s] running install_data
+[5.460s] creating /home/etdisc/Bureau/codef1tenth/install/timer/share/ament_index
+[5.460s] creating /home/etdisc/Bureau/codef1tenth/install/timer/share/ament_index/resource_index
+[5.460s] creating /home/etdisc/Bureau/codef1tenth/install/timer/share/ament_index/resource_index/packages
+[5.463s] copying resource/timer -> /home/etdisc/Bureau/codef1tenth/install/timer/share/ament_index/resource_index/packages
+[5.464s] copying package.xml -> /home/etdisc/Bureau/codef1tenth/install/timer/share/timer
+[5.465s] creating /home/etdisc/Bureau/codef1tenth/install/timer/share/timer/config
+[5.466s] copying config/params.yaml -> /home/etdisc/Bureau/codef1tenth/install/timer/share/timer/config
+[5.469s] running install_egg_info
+[5.475s] Copying ../../build/timer/timer.egg-info to /home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages/timer-0.0.0-py3.8.egg-info
+[5.491s] running install_scripts
+[5.552s] Installing timer script to /home/etdisc/Bureau/codef1tenth/install/timer/lib/timer
+[5.557s] writing list of installed files to '/home/etdisc/Bureau/codef1tenth/build/timer/install.log'
+[5.614s] Invoked command in '/home/etdisc/Bureau/codef1tenth/src/timer' returned '0': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/timer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/timer build --build-base /home/etdisc/Bureau/codef1tenth/build/timer/build install --record /home/etdisc/Bureau/codef1tenth/build/timer/install.log --single-version-externally-managed install_data

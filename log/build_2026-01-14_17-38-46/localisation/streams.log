@@ -1,0 +1,37 @@
+[4.610s] Invoking command in '/home/etdisc/Bureau/codef1tenth/src/localisation': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/localisation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/localisation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localisation build --build-base /home/etdisc/Bureau/codef1tenth/build/localisation/build install --record /home/etdisc/Bureau/codef1tenth/build/localisation/install.log --single-version-externally-managed install_data
+[5.381s] running egg_info
+[5.382s] creating ../../build/localisation/localisation.egg-info
+[5.382s] writing ../../build/localisation/localisation.egg-info/PKG-INFO
+[5.385s] writing dependency_links to ../../build/localisation/localisation.egg-info/dependency_links.txt
+[5.386s] writing entry points to ../../build/localisation/localisation.egg-info/entry_points.txt
+[5.387s] writing requirements to ../../build/localisation/localisation.egg-info/requires.txt
+[5.387s] writing top-level names to ../../build/localisation/localisation.egg-info/top_level.txt
+[5.391s] writing manifest file '../../build/localisation/localisation.egg-info/SOURCES.txt'
+[5.473s] reading manifest file '../../build/localisation/localisation.egg-info/SOURCES.txt'
+[5.475s] writing manifest file '../../build/localisation/localisation.egg-info/SOURCES.txt'
+[5.475s] running build
+[5.476s] running build_py
+[5.476s] creating /home/etdisc/Bureau/codef1tenth/build/localisation/build
+[5.477s] creating /home/etdisc/Bureau/codef1tenth/build/localisation/build/lib
+[5.477s] creating /home/etdisc/Bureau/codef1tenth/build/localisation/build/lib/localisation
+[5.477s] copying localisation/lap_tracker.py -> /home/etdisc/Bureau/codef1tenth/build/localisation/build/lib/localisation
+[5.481s] copying localisation/__init__.py -> /home/etdisc/Bureau/codef1tenth/build/localisation/build/lib/localisation
+[5.481s] running install
+[5.484s] running install_lib
+[5.485s] creating /home/etdisc/Bureau/codef1tenth/install/localisation/lib/python3.8/site-packages/localisation
+[5.485s] copying /home/etdisc/Bureau/codef1tenth/build/localisation/build/lib/localisation/lap_tracker.py -> /home/etdisc/Bureau/codef1tenth/install/localisation/lib/python3.8/site-packages/localisation
+[5.485s] copying /home/etdisc/Bureau/codef1tenth/build/localisation/build/lib/localisation/__init__.py -> /home/etdisc/Bureau/codef1tenth/install/localisation/lib/python3.8/site-packages/localisation
+[5.492s] byte-compiling /home/etdisc/Bureau/codef1tenth/install/localisation/lib/python3.8/site-packages/localisation/lap_tracker.py to lap_tracker.cpython-38.pyc
+[5.496s] byte-compiling /home/etdisc/Bureau/codef1tenth/install/localisation/lib/python3.8/site-packages/localisation/__init__.py to __init__.cpython-38.pyc
+[5.496s] running install_data
+[5.496s] creating /home/etdisc/Bureau/codef1tenth/install/localisation/share/ament_index
+[5.497s] creating /home/etdisc/Bureau/codef1tenth/install/localisation/share/ament_index/resource_index
+[5.497s] creating /home/etdisc/Bureau/codef1tenth/install/localisation/share/ament_index/resource_index/packages
+[5.500s] copying resource/localisation -> /home/etdisc/Bureau/codef1tenth/install/localisation/share/ament_index/resource_index/packages
+[5.505s] copying package.xml -> /home/etdisc/Bureau/codef1tenth/install/localisation/share/localisation
+[5.507s] running install_egg_info
+[5.507s] Copying ../../build/localisation/localisation.egg-info to /home/etdisc/Bureau/codef1tenth/install/localisation/lib/python3.8/site-packages/localisation-0.0.0-py3.8.egg-info
+[5.516s] running install_scripts
+[5.560s] Installing lap_tracker script to /home/etdisc/Bureau/codef1tenth/install/localisation/lib/localisation
+[5.562s] writing list of installed files to '/home/etdisc/Bureau/codef1tenth/build/localisation/install.log'
+[5.632s] Invoked command in '/home/etdisc/Bureau/codef1tenth/src/localisation' returned '0': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/localisation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/localisation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localisation build --build-base /home/etdisc/Bureau/codef1tenth/build/localisation/build install --record /home/etdisc/Bureau/codef1tenth/build/localisation/install.log --single-version-externally-managed install_data

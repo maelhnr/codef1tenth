@@ -1,0 +1,42 @@
+[4.487s] Invoking command in '/home/etdisc/Bureau/codef1tenth/src/strategy': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/strategy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/strategy build --build-base /home/etdisc/Bureau/codef1tenth/build/strategy/build install --record /home/etdisc/Bureau/codef1tenth/build/strategy/install.log --single-version-externally-managed install_data
+[5.359s] running egg_info
+[5.360s] creating ../../build/strategy/strategy.egg-info
+[5.365s] writing ../../build/strategy/strategy.egg-info/PKG-INFO
+[5.365s] writing dependency_links to ../../build/strategy/strategy.egg-info/dependency_links.txt
+[5.365s] writing entry points to ../../build/strategy/strategy.egg-info/entry_points.txt
+[5.366s] writing requirements to ../../build/strategy/strategy.egg-info/requires.txt
+[5.366s] writing top-level names to ../../build/strategy/strategy.egg-info/top_level.txt
+[5.367s] writing manifest file '../../build/strategy/strategy.egg-info/SOURCES.txt'
+[5.455s] reading manifest file '../../build/strategy/strategy.egg-info/SOURCES.txt'
+[5.456s] writing manifest file '../../build/strategy/strategy.egg-info/SOURCES.txt'
+[5.458s] running build
+[5.458s] running build_py
+[5.458s] creating /home/etdisc/Bureau/codef1tenth/build/strategy/build
+[5.458s] creating /home/etdisc/Bureau/codef1tenth/build/strategy/build/lib
+[5.458s] creating /home/etdisc/Bureau/codef1tenth/build/strategy/build/lib/strategy
+[5.459s] copying strategy/basic_strategy_manager.py -> /home/etdisc/Bureau/codef1tenth/build/strategy/build/lib/strategy
+[5.475s] copying strategy/__init__.py -> /home/etdisc/Bureau/codef1tenth/build/strategy/build/lib/strategy
+[5.475s] running install
+[5.475s] running install_lib
+[5.476s] creating /home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy
+[5.476s] copying /home/etdisc/Bureau/codef1tenth/build/strategy/build/lib/strategy/basic_strategy_manager.py -> /home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy
+[5.476s] copying /home/etdisc/Bureau/codef1tenth/build/strategy/build/lib/strategy/__init__.py -> /home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy
+[5.476s] byte-compiling /home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy/basic_strategy_manager.py to basic_strategy_manager.cpython-38.pyc
+[5.477s] byte-compiling /home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy/__init__.py to __init__.cpython-38.pyc
+[5.479s] running install_data
+[5.483s] creating /home/etdisc/Bureau/codef1tenth/install/strategy/share/ament_index
+[5.483s] creating /home/etdisc/Bureau/codef1tenth/install/strategy/share/ament_index/resource_index
+[5.483s] creating /home/etdisc/Bureau/codef1tenth/install/strategy/share/ament_index/resource_index/packages
+[5.483s] copying resource/strategy -> /home/etdisc/Bureau/codef1tenth/install/strategy/share/ament_index/resource_index/packages
+[5.506s] copying package.xml -> /home/etdisc/Bureau/codef1tenth/install/strategy/share/strategy
+[5.506s] creating /home/etdisc/Bureau/codef1tenth/install/strategy/share/strategy/launch
+[5.511s] copying launch/basic_strategy.py -> /home/etdisc/Bureau/codef1tenth/install/strategy/share/strategy/launch
+[5.511s] creating /home/etdisc/Bureau/codef1tenth/install/strategy/share/strategy/config
+[5.511s] copying config/simulation.yaml -> /home/etdisc/Bureau/codef1tenth/install/strategy/share/strategy/config
+[5.511s] copying config/real.yaml -> /home/etdisc/Bureau/codef1tenth/install/strategy/share/strategy/config
+[5.516s] running install_egg_info
+[5.519s] Copying ../../build/strategy/strategy.egg-info to /home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy-0.0.0-py3.8.egg-info
+[5.527s] running install_scripts
+[5.573s] Installing basic_strategy_manager script to /home/etdisc/Bureau/codef1tenth/install/strategy/lib/strategy
+[5.575s] writing list of installed files to '/home/etdisc/Bureau/codef1tenth/build/strategy/install.log'
+[5.645s] Invoked command in '/home/etdisc/Bureau/codef1tenth/src/strategy' returned '0': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/strategy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/strategy build --build-base /home/etdisc/Bureau/codef1tenth/build/strategy/build install --record /home/etdisc/Bureau/codef1tenth/build/strategy/install.log --single-version-externally-managed install_data

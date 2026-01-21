@@ -1,0 +1,4 @@
+[console_scripts]
+A_star = Planif.A_etoile:main
+A_star_SLAM = Planif.A_etoile_SLAM:main
+

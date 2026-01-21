@@ -1,0 +1,7 @@
+[console_scripts]
+disparity_extender = Simple_algo.DisparityExtender:main
+fast_disparity_extender = Simple_algo.fast_disparity_extender:main
+gap_follow = Simple_algo.follow_gap_penn:main
+wall_follow = Simple_algo.wall_follow:main
+wall_follow_penn = Simple_algo.wall_follow_penn:main
+

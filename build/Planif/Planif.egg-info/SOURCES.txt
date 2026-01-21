@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/Planif/Planif.egg-info/PKG-INFO
+../../build/Planif/Planif.egg-info/SOURCES.txt
+../../build/Planif/Planif.egg-info/dependency_links.txt
+../../build/Planif/Planif.egg-info/entry_points.txt
+../../build/Planif/Planif.egg-info/requires.txt
+../../build/Planif/Planif.egg-info/top_level.txt
+../../build/Planif/Planif.egg-info/zip-safe
+Planif/A_etoile.py
+Planif/A_etoile_SLAM.py
+Planif/__init__.py
+resource/Planif
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

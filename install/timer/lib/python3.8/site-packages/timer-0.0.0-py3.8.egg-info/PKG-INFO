@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: timer
+Version: 0.0.0
+Summary: Package to evaluate the execution time of nodes or frequency of topics. Needs to be run with the ros2 run command.
+Home-page: UNKNOWN
+Maintainer: nils
+Maintainer-email: nils@todo.todo
+License: TODO: License declaration
+Description: UNKNOWN
+Platform: UNKNOWN

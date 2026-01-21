@@ -1,0 +1,25 @@
+[14.426s] Invoking command in '/home/etdisc/Bureau/codef1tenth/src/Mapping': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/Mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/Mapping/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Mapping build --build-base /home/etdisc/Bureau/codef1tenth/build/Mapping/build install --record /home/etdisc/Bureau/codef1tenth/build/Mapping/install.log --single-version-externally-managed install_data
+[15.380s] running egg_info
+[15.382s] writing ../../build/Mapping/Mapping.egg-info/PKG-INFO
+[15.384s] writing dependency_links to ../../build/Mapping/Mapping.egg-info/dependency_links.txt
+[15.385s] writing entry points to ../../build/Mapping/Mapping.egg-info/entry_points.txt
+[15.386s] writing requirements to ../../build/Mapping/Mapping.egg-info/requires.txt
+[15.386s] writing top-level names to ../../build/Mapping/Mapping.egg-info/top_level.txt
+[15.489s] reading manifest file '../../build/Mapping/Mapping.egg-info/SOURCES.txt'
+[15.498s] writing manifest file '../../build/Mapping/Mapping.egg-info/SOURCES.txt'
+[15.499s] running build
+[15.499s] running build_py
+[15.501s] running install
+[15.505s] running install_lib
+[15.511s] running install_data
+[15.514s] running install_egg_info
+[15.522s] removing '/home/etdisc/Bureau/codef1tenth/install/Mapping/lib/python3.8/site-packages/Mapping-0.0.0-py3.8.egg-info' (and everything under it)
+[15.564s] Copying ../../build/Mapping/Mapping.egg-info to /home/etdisc/Bureau/codef1tenth/install/Mapping/lib/python3.8/site-packages/Mapping-0.0.0-py3.8.egg-info
+[15.575s] running install_scripts
+[15.670s] Installing centerline_extraction script to /home/etdisc/Bureau/codef1tenth/install/Mapping/lib/Mapping
+[15.674s] Installing custom_slam script to /home/etdisc/Bureau/codef1tenth/install/Mapping/lib/Mapping
+[15.674s] Installing occupancy_grid script to /home/etdisc/Bureau/codef1tenth/install/Mapping/lib/Mapping
+[15.675s] Installing pose_listener script to /home/etdisc/Bureau/codef1tenth/install/Mapping/lib/Mapping
+[15.675s] Installing scan_filter script to /home/etdisc/Bureau/codef1tenth/install/Mapping/lib/Mapping
+[15.677s] writing list of installed files to '/home/etdisc/Bureau/codef1tenth/build/Mapping/install.log'
+[16.617s] Invoked command in '/home/etdisc/Bureau/codef1tenth/src/Mapping' returned '0': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/Mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/Mapping/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Mapping build --build-base /home/etdisc/Bureau/codef1tenth/build/Mapping/build install --record /home/etdisc/Bureau/codef1tenth/build/Mapping/install.log --single-version-externally-managed install_data
