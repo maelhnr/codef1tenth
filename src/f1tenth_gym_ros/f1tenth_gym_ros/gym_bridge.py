@@ -33,6 +33,7 @@ from geometry_msgs.msg import Transform
 from geometry_msgs.msg import Quaternion
 from ackermann_msgs.msg import AckermannDriveStamped
 from tf2_ros import TransformBroadcaster
+import math
 
 import gym
 import numpy as np
@@ -254,8 +255,8 @@ class GymBridge(Node):
             opp_scan.range_max = 30.
             opp_scan.ranges = self.opp_scan
             self.opp_scan_pub.publish(opp_scan)
+        
 
-        # pub tf
         self._publish_odom(ts)
         self._publish_transforms(ts)
         self._publish_laser_transforms(ts)
