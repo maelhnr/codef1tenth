@@ -27,6 +27,7 @@ from launch.substitutions import LaunchConfiguration
 from launch.actions import DeclareLaunchArgument
 from launch.actions import IncludeLaunchDescription
 from launch_xml.launch_description_sources import XMLLaunchDescriptionSource
+from launch.launch_description_sources import PythonLaunchDescriptionSource
 from ament_index_python.packages import get_package_share_directory
 import os
 
@@ -51,6 +52,11 @@ def generate_launch_description():
         'config',
         'mux.yaml'
     )
+    realsense_config = os.path.join(
+        get_package_share_directory('realsense2_camera'),
+        'launch',
+        'rs_launch.py'
+    )
 
     joy_la = DeclareLaunchArgument(
         'joy_config',
@@ -69,7 +75,22 @@ def generate_launch_description():
         default_value=mux_config,
         description='Descriptions for ackermann mux configs')
 
+    
+    
     ld = LaunchDescription([joy_la, vesc_la, sensors_la, mux_la])
+    
+    realsense_node = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(realsense_config),
+        launch_arguments={
+            'enable_gyro': 'true',              # Activer le gyroscope
+            'enable_accel': 'true',             # Activer l'accéléromètre
+            'unite_imu_method': '2',            # Fusion linéaire (Vital pour EKF)
+            'enable_depth': 'true',             # Activer la profondeur
+            'enable_color': 'true',             # Activer la couleur
+            'camera_name': 'camera',            # Nom du namespace
+            'initial_reset': 'true'             # Reset USB au démarrage (évite les bugs)
+        }.items()
+    )
 
     joy_node = Node(
         package='joy',
@@ -121,11 +142,17 @@ def generate_launch_description():
         parameters=[LaunchConfiguration('mux_config')],
         remappings=[('ackermann_cmd_out', 'ackermann_drive')]
     )
-    static_tf_node = Node(
+    static_tf_laser_node = Node(
         package='tf2_ros',
         executable='static_transform_publisher',
         name='static_baselink_to_laser',
         arguments=['0.27', '0.0', '0.11', '0.0', '0.0', '0.0', 'base_link', 'laser']
+    )
+    static_tf_camera_node = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='static_base_link_to_camera',
+        arguments=['0.20', '0.0', '0.15', '0.0', '0.0', '0.0', 'base_link', 'camera_link']
     )
 
     # finalize
@@ -137,6 +164,8 @@ def generate_launch_description():
     # ld.add_action(throttle_interpolator_node)
     ld.add_action(urg_node)
     ld.add_action(ackermann_mux_node)
-    ld.add_action(static_tf_node)
+    ld.add_action(static_tf_laser_node)
+    ld.add_action(realsense_node)
+    ld.add_action(static_tf_camera_node)
 
     return ld
