@@ -1,0 +1,3 @@
+[console_scripts]
+lap_tracker = localisation.lap_tracker:main
+

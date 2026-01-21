@@ -1,0 +1,12 @@
+[0.000000] (-) TimerEvent: {}
+[0.000711] (-) JobUnselected: {'identifier': 'AEB'}
+[0.001077] (-) JobUnselected: {'identifier': 'Mapping'}
+[0.001419] (-) JobUnselected: {'identifier': 'Planif'}
+[0.001486] (-) JobUnselected: {'identifier': 'Simple_algo'}
+[0.001510] (-) JobUnselected: {'identifier': 'Waypoints'}
+[0.001525] (-) JobUnselected: {'identifier': 'custom_msgs'}
+[0.001538] (-) JobUnselected: {'identifier': 'f1tenth_gym_ros'}
+[0.001551] (-) JobUnselected: {'identifier': 'localisation'}
+[0.001564] (-) JobUnselected: {'identifier': 'strategy'}
+[0.001577] (-) JobUnselected: {'identifier': 'timer'}
+[0.001591] (-) EventReactorShutdown: {}

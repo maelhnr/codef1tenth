@@ -1,0 +1,21 @@
+[2.688s] Invoking command in '/home/etdisc/Bureau/codef1tenth/src/strategy': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/strategy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/strategy build --build-base /home/etdisc/Bureau/codef1tenth/build/strategy/build install --record /home/etdisc/Bureau/codef1tenth/build/strategy/install.log --single-version-externally-managed install_data
+[3.088s] running egg_info
+[3.088s] writing ../../build/strategy/strategy.egg-info/PKG-INFO
+[3.089s] writing dependency_links to ../../build/strategy/strategy.egg-info/dependency_links.txt
+[3.090s] writing entry points to ../../build/strategy/strategy.egg-info/entry_points.txt
+[3.090s] writing requirements to ../../build/strategy/strategy.egg-info/requires.txt
+[3.091s] writing top-level names to ../../build/strategy/strategy.egg-info/top_level.txt
+[3.150s] reading manifest file '../../build/strategy/strategy.egg-info/SOURCES.txt'
+[3.151s] writing manifest file '../../build/strategy/strategy.egg-info/SOURCES.txt'
+[3.152s] running build
+[3.152s] running build_py
+[3.152s] running install
+[3.155s] running install_lib
+[3.158s] running install_data
+[3.158s] running install_egg_info
+[3.161s] removing '/home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy-0.0.0-py3.8.egg-info' (and everything under it)
+[3.161s] Copying ../../build/strategy/strategy.egg-info to /home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy-0.0.0-py3.8.egg-info
+[3.162s] running install_scripts
+[3.188s] Installing basic_strategy_manager script to /home/etdisc/Bureau/codef1tenth/install/strategy/lib/strategy
+[3.189s] writing list of installed files to '/home/etdisc/Bureau/codef1tenth/build/strategy/install.log'
+[3.225s] Invoked command in '/home/etdisc/Bureau/codef1tenth/src/strategy' returned '0': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/strategy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/strategy build --build-base /home/etdisc/Bureau/codef1tenth/build/strategy/build install --record /home/etdisc/Bureau/codef1tenth/build/strategy/install.log --single-version-externally-managed install_data

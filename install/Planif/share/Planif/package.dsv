@@ -1,0 +1,6 @@
+source;share/Planif/hook/pythonpath.ps1
+source;share/Planif/hook/pythonpath.dsv
+source;share/Planif/hook/pythonpath.sh
+source;share/Planif/hook/ament_prefix_path.ps1
+source;share/Planif/hook/ament_prefix_path.dsv
+source;share/Planif/hook/ament_prefix_path.sh

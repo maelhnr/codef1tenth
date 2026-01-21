@@ -28,6 +28,7 @@
 /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/python3.8/site-packages/Mapping-0.0.0-py3.8.egg-info/dependency_links.txt
 /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping/centerline_extraction
 /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping/custom_slam
+/home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping/occupancy_grid
 /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping/pose_listener
 /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping/scan_filter
 /home/etdisc/Bureau/codef1tenth/src/install/Mapping/lib/Mapping/virtual_imu

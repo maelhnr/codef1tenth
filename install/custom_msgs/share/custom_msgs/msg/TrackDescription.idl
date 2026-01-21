@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/TrackDescription.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module custom_msgs {
+  module msg {
+    struct TrackDescription {
+      std_msgs::msg::Header header;
+
+      boolean success;
+
+      sequence<geometry_msgs::msg::Pose> centerline;
+
+      sequence<geometry_msgs::msg::Pose> inside_wall;
+
+      sequence<geometry_msgs::msg::Pose> outside_wall;
+    };
+  };
+};

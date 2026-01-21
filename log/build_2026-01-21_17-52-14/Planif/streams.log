@@ -1,0 +1,41 @@
+[3.508s] Invoking command in '/home/etdisc/Bureau/codef1tenth/src/Planif': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/Planif/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/Planif/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Planif build --build-base /home/etdisc/Bureau/codef1tenth/build/Planif/build install --record /home/etdisc/Bureau/codef1tenth/build/Planif/install.log --single-version-externally-managed install_data
+[4.226s] running egg_info
+[4.227s] creating ../../build/Planif/Planif.egg-info
+[4.227s] writing ../../build/Planif/Planif.egg-info/PKG-INFO
+[4.228s] writing dependency_links to ../../build/Planif/Planif.egg-info/dependency_links.txt
+[4.228s] writing entry points to ../../build/Planif/Planif.egg-info/entry_points.txt
+[4.228s] writing requirements to ../../build/Planif/Planif.egg-info/requires.txt
+[4.228s] writing top-level names to ../../build/Planif/Planif.egg-info/top_level.txt
+[4.230s] writing manifest file '../../build/Planif/Planif.egg-info/SOURCES.txt'
+[4.313s] reading manifest file '../../build/Planif/Planif.egg-info/SOURCES.txt'
+[4.316s] writing manifest file '../../build/Planif/Planif.egg-info/SOURCES.txt'
+[4.318s] running build
+[4.318s] running build_py
+[4.319s] creating /home/etdisc/Bureau/codef1tenth/build/Planif/build
+[4.319s] creating /home/etdisc/Bureau/codef1tenth/build/Planif/build/lib
+[4.319s] creating /home/etdisc/Bureau/codef1tenth/build/Planif/build/lib/Planif
+[4.319s] copying Planif/A_etoile.py -> /home/etdisc/Bureau/codef1tenth/build/Planif/build/lib/Planif
+[4.319s] copying Planif/__init__.py -> /home/etdisc/Bureau/codef1tenth/build/Planif/build/lib/Planif
+[4.320s] copying Planif/A_etoile_SLAM.py -> /home/etdisc/Bureau/codef1tenth/build/Planif/build/lib/Planif
+[4.320s] running install
+[4.321s] running install_lib
+[4.322s] creating /home/etdisc/Bureau/codef1tenth/install/Planif/lib/python3.8/site-packages/Planif
+[4.322s] copying /home/etdisc/Bureau/codef1tenth/build/Planif/build/lib/Planif/A_etoile.py -> /home/etdisc/Bureau/codef1tenth/install/Planif/lib/python3.8/site-packages/Planif
+[4.322s] copying /home/etdisc/Bureau/codef1tenth/build/Planif/build/lib/Planif/__init__.py -> /home/etdisc/Bureau/codef1tenth/install/Planif/lib/python3.8/site-packages/Planif
+[4.322s] copying /home/etdisc/Bureau/codef1tenth/build/Planif/build/lib/Planif/A_etoile_SLAM.py -> /home/etdisc/Bureau/codef1tenth/install/Planif/lib/python3.8/site-packages/Planif
+[4.322s] byte-compiling /home/etdisc/Bureau/codef1tenth/install/Planif/lib/python3.8/site-packages/Planif/A_etoile.py to A_etoile.cpython-38.pyc
+[4.340s] byte-compiling /home/etdisc/Bureau/codef1tenth/install/Planif/lib/python3.8/site-packages/Planif/__init__.py to __init__.cpython-38.pyc
+[4.341s] byte-compiling /home/etdisc/Bureau/codef1tenth/install/Planif/lib/python3.8/site-packages/Planif/A_etoile_SLAM.py to A_etoile_SLAM.cpython-38.pyc
+[4.342s] running install_data
+[4.342s] creating /home/etdisc/Bureau/codef1tenth/install/Planif/share/ament_index
+[4.343s] creating /home/etdisc/Bureau/codef1tenth/install/Planif/share/ament_index/resource_index
+[4.343s] creating /home/etdisc/Bureau/codef1tenth/install/Planif/share/ament_index/resource_index/packages
+[4.344s] copying resource/Planif -> /home/etdisc/Bureau/codef1tenth/install/Planif/share/ament_index/resource_index/packages
+[4.344s] copying package.xml -> /home/etdisc/Bureau/codef1tenth/install/Planif/share/Planif
+[4.345s] running install_egg_info
+[4.345s] Copying ../../build/Planif/Planif.egg-info to /home/etdisc/Bureau/codef1tenth/install/Planif/lib/python3.8/site-packages/Planif-0.1.0-py3.8.egg-info
+[4.346s] running install_scripts
+[4.391s] Installing A_star script to /home/etdisc/Bureau/codef1tenth/install/Planif/lib/Planif
+[4.397s] Installing A_star_SLAM script to /home/etdisc/Bureau/codef1tenth/install/Planif/lib/Planif
+[4.398s] writing list of installed files to '/home/etdisc/Bureau/codef1tenth/build/Planif/install.log'
+[4.589s] Invoked command in '/home/etdisc/Bureau/codef1tenth/src/Planif' returned '0': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/build/Planif/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/install/Planif/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Planif build --build-base /home/etdisc/Bureau/codef1tenth/build/Planif/build install --record /home/etdisc/Bureau/codef1tenth/build/Planif/install.log --single-version-externally-managed install_data

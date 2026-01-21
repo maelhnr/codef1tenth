@@ -1,0 +1,13 @@
+scan_filter:
+    ros__parameters:
+        side_filter: 0.185 # Filtering distance from the side of the car (in meters)
+        front_filter: 0.20 # Filtering distance from the front of the car (in meters)
+        back_filter: 0.10 # Filtering distance from the back of the car (in meters)
+        
+centerline_extraction:
+    ros__parameters:
+        map_binary_threshold: 0.6 # Binarization threshold for the map (between 0 and 1)
+        max_road_width: 5.0 # Max road width on circuit (in meters)
+        visualize_matplotlib_on_success: false # Whether to visualize the centerline extraction with matplotlib on success
+        visualize_matplotlib_on_failure: false # Whether to visualize the centerline extraction (boolean_map in general) with matplotlib on failure
+        

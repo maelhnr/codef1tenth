@@ -1,8 +1,6 @@
 from setuptools import setup
 import os
 from glob import glob
-import os
-from glob import glob
 
 package_name = 'Mapping'
 
@@ -27,7 +25,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            # 'occupancy_grid = Mapping.Occupancy_Grid:main',
+            'occupancy_grid = Mapping.Occupancy_Grid:main',
             'pose_listener = Mapping.pose_listener:main',
             'scan_filter = Mapping.scan_filter:main',
             'centerline_extraction = Mapping.centerline_extraction:main',

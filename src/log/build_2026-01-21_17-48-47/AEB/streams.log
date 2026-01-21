@@ -1,0 +1,23 @@
+[4.767s] Invoking command in '/home/etdisc/Bureau/codef1tenth/src/AEB': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/src/build/AEB/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/AEB build --build-base /home/etdisc/Bureau/codef1tenth/src/build/AEB/build install --record /home/etdisc/Bureau/codef1tenth/src/build/AEB/install.log --single-version-externally-managed install_data
+[5.376s] running egg_info
+[5.377s] writing ../build/AEB/AEB.egg-info/PKG-INFO
+[5.377s] writing dependency_links to ../build/AEB/AEB.egg-info/dependency_links.txt
+[5.377s] writing entry points to ../build/AEB/AEB.egg-info/entry_points.txt
+[5.378s] writing requirements to ../build/AEB/AEB.egg-info/requires.txt
+[5.378s] writing top-level names to ../build/AEB/AEB.egg-info/top_level.txt
+[5.466s] reading manifest file '../build/AEB/AEB.egg-info/SOURCES.txt'
+[5.468s] writing manifest file '../build/AEB/AEB.egg-info/SOURCES.txt'
+[5.469s] running build
+[5.469s] running build_py
+[5.472s] running install
+[5.475s] running install_lib
+[5.479s] running install_data
+[5.479s] running install_egg_info
+[5.483s] removing '/home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages/AEB-0.0.0-py3.8.egg-info' (and everything under it)
+[5.484s] Copying ../build/AEB/AEB.egg-info to /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages/AEB-0.0.0-py3.8.egg-info
+[5.488s] running install_scripts
+[5.543s] Installing AEB script to /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/AEB
+[5.543s] Installing aeb2 script to /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/AEB
+[5.543s] Installing multiplexer script to /home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/AEB
+[5.544s] writing list of installed files to '/home/etdisc/Bureau/codef1tenth/src/build/AEB/install.log'
+[5.616s] Invoked command in '/home/etdisc/Bureau/codef1tenth/src/AEB' returned '0': PYTHONPATH=/home/etdisc/Bureau/codef1tenth/src/build/AEB/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etdisc/Bureau/codef1tenth/src/install/AEB/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/AEB build --build-base /home/etdisc/Bureau/codef1tenth/src/build/AEB/build install --record /home/etdisc/Bureau/codef1tenth/src/build/AEB/install.log --single-version-externally-managed install_data
