@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/timer/timer.egg-info/PKG-INFO
+writing dependency_links to ../../build/timer/timer.egg-info/dependency_links.txt
+writing entry points to ../../build/timer/timer.egg-info/entry_points.txt
+writing requirements to ../../build/timer/timer.egg-info/requires.txt
+writing top-level names to ../../build/timer/timer.egg-info/top_level.txt
+reading manifest file '../../build/timer/timer.egg-info/SOURCES.txt'
+writing manifest file '../../build/timer/timer.egg-info/SOURCES.txt'
+running build
+running build_py
+copying timer/__init__.py -> /home/etdisc/Bureau/codef1tenth/build/timer/build/lib/timer
+copying timer/timer_node.py -> /home/etdisc/Bureau/codef1tenth/build/timer/build/lib/timer
+running install
+running install_lib
+copying /home/etdisc/Bureau/codef1tenth/build/timer/build/lib/timer/__init__.py -> /home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages/timer
+copying /home/etdisc/Bureau/codef1tenth/build/timer/build/lib/timer/timer_node.py -> /home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages/timer
+byte-compiling /home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages/timer/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages/timer/timer_node.py to timer_node.cpython-38.pyc
+running install_data
+copying resource/timer -> /home/etdisc/Bureau/codef1tenth/install/timer/share/ament_index/resource_index/packages
+copying package.xml -> /home/etdisc/Bureau/codef1tenth/install/timer/share/timer
+copying config/params.yaml -> /home/etdisc/Bureau/codef1tenth/install/timer/share/timer/config
+running install_egg_info
+removing '/home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages/timer-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/timer/timer.egg-info to /home/etdisc/Bureau/codef1tenth/install/timer/lib/python3.8/site-packages/timer-0.0.0-py3.8.egg-info
+running install_scripts
+Installing timer script to /home/etdisc/Bureau/codef1tenth/install/timer/lib/timer
+writing list of installed files to '/home/etdisc/Bureau/codef1tenth/build/timer/install.log'

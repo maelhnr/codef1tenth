@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/strategy/strategy.egg-info/PKG-INFO
+writing dependency_links to ../../build/strategy/strategy.egg-info/dependency_links.txt
+writing entry points to ../../build/strategy/strategy.egg-info/entry_points.txt
+writing requirements to ../../build/strategy/strategy.egg-info/requires.txt
+writing top-level names to ../../build/strategy/strategy.egg-info/top_level.txt
+reading manifest file '../../build/strategy/strategy.egg-info/SOURCES.txt'
+writing manifest file '../../build/strategy/strategy.egg-info/SOURCES.txt'
+running build
+running build_py
+copying strategy/basic_strategy_manager.py -> /home/etdisc/Bureau/codef1tenth/build/strategy/build/lib/strategy
+copying strategy/__init__.py -> /home/etdisc/Bureau/codef1tenth/build/strategy/build/lib/strategy
+running install
+running install_lib
+copying /home/etdisc/Bureau/codef1tenth/build/strategy/build/lib/strategy/basic_strategy_manager.py -> /home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy
+copying /home/etdisc/Bureau/codef1tenth/build/strategy/build/lib/strategy/__init__.py -> /home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy
+byte-compiling /home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy/basic_strategy_manager.py to basic_strategy_manager.cpython-38.pyc
+byte-compiling /home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/strategy -> /home/etdisc/Bureau/codef1tenth/install/strategy/share/ament_index/resource_index/packages
+copying package.xml -> /home/etdisc/Bureau/codef1tenth/install/strategy/share/strategy
+copying launch/basic_strategy.py -> /home/etdisc/Bureau/codef1tenth/install/strategy/share/strategy/launch
+copying config/simulation.yaml -> /home/etdisc/Bureau/codef1tenth/install/strategy/share/strategy/config
+copying config/real.yaml -> /home/etdisc/Bureau/codef1tenth/install/strategy/share/strategy/config
+running install_egg_info
+removing '/home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/strategy/strategy.egg-info to /home/etdisc/Bureau/codef1tenth/install/strategy/lib/python3.8/site-packages/strategy-0.0.0-py3.8.egg-info
+running install_scripts
+Installing basic_strategy_manager script to /home/etdisc/Bureau/codef1tenth/install/strategy/lib/strategy
+writing list of installed files to '/home/etdisc/Bureau/codef1tenth/build/strategy/install.log'

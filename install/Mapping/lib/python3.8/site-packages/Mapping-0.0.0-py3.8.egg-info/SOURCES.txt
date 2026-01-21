@@ -14,6 +14,7 @@ Mapping/centerline_extraction.py
 Mapping/custom_slam.py
 Mapping/pose_listener.py
 Mapping/scan_filter.py
+Mapping/virtual_imu.py
 cartographer_config/real.lua
 cartographer_config/simulation.lua
 config/real.yaml

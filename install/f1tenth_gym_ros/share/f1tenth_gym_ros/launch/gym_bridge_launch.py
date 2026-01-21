@@ -44,6 +44,21 @@ def generate_launch_description():
         name='bridge',
         parameters=[config]
     )
+
+    # AJOUT DU NOEUD VIRTUAL_IMU
+    virtual_imu_node = Node(
+        package='Mapping',
+        executable='virtual_imu',
+        name='virtual_imu',
+        output='screen',
+        parameters=[{
+            'odom_topic': '/odom', # On s'abonne à l'odom du simulateur
+            'imu_topic': '/imu',               # On publie sur /imu pour l'EKF
+            'frame_id': 'base_link',
+            'publish_frequency':  200.0
+        }]
+    )
+    
     rviz_node = Node(
         package='rviz2',
         executable='rviz2',
@@ -85,6 +100,7 @@ def generate_launch_description():
 
     # finalize
     ld.add_action(rviz_node)
+    ld.add_action(virtual_imu_node)
     ld.add_action(bridge_node)
     ld.add_action(nav_lifecycle_node)
     ld.add_action(map_server_node)
